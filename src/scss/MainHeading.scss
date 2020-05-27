@@ -1,0 +1,20 @@
+$accent-blue: blue;
+.main-heading {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 7.2rem;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #404040;
+
+  &.accent-color {
+    color: $accent-blue;
+  }
+
+  &.white {
+    color: white;
+  }
+
+  &.black {
+    color: #2e3038;
+  }
+}

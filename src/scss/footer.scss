@@ -1,0 +1,153 @@
+footer {
+  // height: 20rem;
+  // position: relative;
+  // bottom: 0;
+  // width: 100%;
+  .contact {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 34, 102, 0.9);
+    // background-color: white;
+    flex-direction: row;
+  }
+
+  .contact .text {
+    display: inline-block;
+    width: 50%;
+  }
+  .contact .images {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .contact .images {
+    position: relative;
+    // height: 35vw;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+
+  .text {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    .text-container {
+      height: auto !important;
+    }
+  }
+
+  .text-container .header {
+    font-family: "Muli", sans-serif;
+    font-size: 2rem;
+    // font-weight: bold;
+    text-align: center;
+    // color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .paragraph::before {
+    content: "";
+    width: 100%;
+    height: 150%;
+    background-color: rgba(0, 0, 0, 0.04);
+    position: absolute;
+    z-index: -1;
+    bottom: 0vw;
+    right: 2vw;
+  }
+
+  .contact .text {
+    position: relative;
+  }
+
+  .contact .paragraph div {
+    width: 100%;
+  }
+  .contact .text p {
+    font-family: "Muli", sans-serif;
+    // font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    // color: black;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .contact {
+      flex-direction: column;
+    }
+
+    .contact .text,
+    .contact .images {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .contact .header {
+      font-size: 3rem;
+    }
+
+    .contact .text {
+      height: auto;
+      padding-bottom: 30px;
+    }
+
+    .contact .text p {
+      font-size: 1.4rem;
+    }
+
+    .text-container {
+      position: relative;
+      top: 0;
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+    }
+
+    .contact .images {
+      height: 50vw;
+    }
+
+    .contact .images img {
+      width: 55vw;
+      right: 30vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mail {
+    text-decoration: none !important;
+    // color: black;
+  }
+
+  footer .contact .images {
+    width: 90%;
+    margin: 0 auto;
+
+    padding: 0;
+  }
+  footer .contact .images {
+    position: relative;
+  }
+
+  footer .contact .text p {
+    font-size: 1rem;
+  }
+}

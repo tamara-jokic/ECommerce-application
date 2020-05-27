@@ -1,0 +1,142 @@
+.login-block {
+  background: black;
+
+  background: -webkit-linear-gradient(to bottom, #ffb88c, black);
+
+  background: linear-gradient(to bottom, #ffb88c, black);
+
+  float: left;
+
+  width: 100%;
+
+  padding: 50px 400px;
+}
+
+// .banner-sec {
+//   background: url("../images/comp.jpg") no-repeat left bottom;
+//   background-size: cover;
+//   min-height: 300px;
+//   border-radius: 0 10px 10px 0;
+//   padding: 0;
+// }
+
+.container {
+  background: #fff;
+  border-radius: 0px;
+  // box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+  border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+}
+
+.login-sec {
+  padding: 50px 30px;
+  position: relative;
+}
+
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.login-sec .copy-text i {
+  color: #9286c7;
+}
+
+.login-sec .copy-text a {
+  color: black;
+}
+
+.login-sec h2 {
+  margin-bottom: 20px;
+
+  font-weight: bold;
+
+  font-size: 20px;
+
+  color: blue;
+}
+
+// .login-sec h2:after {
+//   content: " ";
+//   width: 200px;
+//   height: 5px;
+//   background: #25cf53;
+
+//   display: block;
+
+//   margin-top: 8px;
+//   border-radius: 3px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+.btn-login {
+  background: black;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+}
+
+.banner-text {
+  width: 70%;
+  position: absolute;
+  bottom: 40px;
+  padding-left: 20px;
+}
+
+.banner-text h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.banner-text h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #fff;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.banner-text p {
+  color: #fff;
+}
+
+.login_container {
+  padding: 0 2rem;
+}
+
+.linka {
+  color: blue !important;
+
+  padding: 0px !important;
+}
+
+.linka:hover {
+  color: black !important;
+
+  padding: 0px !important;
+}
+
+.errorMsg {
+  color: #cc0000;
+
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6b8e23;
+
+  margin-bottom: 10px;
+}

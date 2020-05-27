@@ -1,0 +1,25 @@
+.textarea-component {
+  font-family: Muli, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $light-gray;
+  width: 100%;
+
+  textarea {
+    border: none;
+    resize: none;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    width: 100%;
+    &:focus,
+    &:hover {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $dark-gray;
+    }
+  }
+  border: 1px solid $dark-gray;
+}

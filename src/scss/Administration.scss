@@ -1,0 +1,12 @@
+.modal-triggers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  * {
+    flex-basis: 10%;
+  }
+
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,23 @@
+.alert-info .cart-img {
+  width: 200px;
+}
+
+.alert-info {
+  margin: 100px 400px;
+  width: 40%;
+  background-color: white !important;
+  color: #0c5460;
+  border-color: #bee5eb;
+  .sum {
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.alert-info .cart-title {
+  font-size: 40px;
+  color: #263f66 !important;
+  text-align: center;
+  font-weight: bold;
+}

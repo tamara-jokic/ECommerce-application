@@ -1,0 +1,122 @@
+.about-container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  flex-direction: row;
+  margin: 0;
+  padding: 50px 7vw;
+}
+
+.about-container .text,
+.about-container .images {
+  display: inline-block;
+  width: 49%;
+}
+
+.about-container .images {
+  position: relative;
+  width: 50%;
+  height: auto;
+  //height: 30vw;
+}
+
+.text-container .header {
+  font-family: "Muli", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: left;
+  color: #2e3038;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-right: 1vw;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.about-container .text {
+  position: relative;
+  //height: 35vw;
+  //margin-left: 200px;
+}
+
+.text-container {
+  height: auto;
+  //position: absolute;
+  //top: 50%;
+  //transform: translateY(-50%);
+}
+
+.about-container .paragraph div {
+  width: 100%;
+}
+.about-container .text p {
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+  text-align: left;
+  color: #8b92ab;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+.about-container .images img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+}
+
+.button-container {
+  padding-left: 52px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-container .text,
+  .about-container .images {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-container .header {
+    font-size: 3rem;
+  }
+
+  .about-container .text {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .about-container .text p {
+    font-size: 1rem;
+  }
+
+  .text-container {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+
+  .about-container .images {
+    height: 50vw;
+  }
+
+  .about-container .images img {
+    width: 55vw;
+    right: 30vw;
+  }
+}

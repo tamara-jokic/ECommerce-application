@@ -1,0 +1,34 @@
+$dark-gray: rgba(139, 146, 171, 0.5);
+$light-gray: #8b92ab;
+
+.InputText {
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: $light-gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $dark-gray 1px solid;
+
+  input {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    border: none;
+    text-align: right;
+    width: 100%;
+    &:focus,
+    &:hover {
+      outline: none;
+    }
+  }
+
+  label {
+    display: inline-block;
+    color: $dark-gray;
+    font-weight: normal;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+  }
+}

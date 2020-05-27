@@ -1,0 +1,368 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "user": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VyIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiYWRtaW4ifSwiaWF0IjoxNTkwNTY4NDQwfQ.qvHXEKdxjPgqR7gLZSnB6lFXIGULNCQkD0C6iEI_e_k"
+    },
+    {
+      "user": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "role": "test",
+      "id": "b3fqtzdk7"
+    },
+    {
+      "user": "Tamara",
+      "email": "tamara@gmail.com",
+      "password": "tamara",
+      "id": "oy8r39v20",
+      "role": "user"
+    },
+    {
+      "user": "ta",
+      "email": "ta@mail.com",
+      "password": "ta",
+      "id": "iz76ktehk",
+      "role": "user"
+    },
+    {
+      "user": "Anastasija",
+      "email": "anastasijaajokiic@gmail.com",
+      "password": "anastasija",
+      "id": "7te4dvknu",
+      "role": "user"
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "text": {
+        "title": "Kumite master WKF",
+        "body": "Takmičarski kimono uradjen od srednje teškog materijala, modernog izgleda. Koristi se kako za kate tako i za kumite. Materijal specijano obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara"
+      },
+      "img": "src/images/kumiteslide.jpg"
+    },
+    {
+      "id": 2,
+      "text": {
+        "title": "Ipon-Classic 11 Oz",
+        "body": "Novi model kimona ovog renomiranog proizvođača. Kimono koji ispunjava najnovije IJF standarde koji stupaju na snagu u Arpilu 2015 godine. Novi “Red Label” znak, koji je potvrda da kimono zadovoljava najnovija IJF pravila, produženi  rukavi koji se sužavaju na krajevima. Visokokvalitetan kimono namenjen vrhunskim takmičarima. Gornji deo ojačan na ramenima i grudima. "
+      },
+      "img": "src/images/karate1.jpg"
+    },
+    {
+      "id": 3,
+      "text": {
+        "title": "Štitnik-karate-kumite WKF",
+        "body": "Arawaza – Štitnik potkolenice i risa (komplet) WKF Approved"
+      },
+      "img": "src/images/stitnicislide.jpg"
+    },
+    {
+      "id": 4,
+      "text": {
+        "title": "Kata Master WKF",
+        "body": "Izrađen od visokokvalitetnog teškog materijala. Model specijalno urađen za kate, sa širokim porubom na rukavima i nogavicama koji su skraćeni po standardima. Materijal specijalno obrađen na skupljanje. Zahvaljujući kvalitetnoj izradi i modernom dizajnu ovaj kimono je prvi proizvod u Crnoj Gori sa WKF approved sertifikatom, sertifikatom za sva svetska i evropska takmičenja, te ga sa zadovoljstvom nose najbolji svetski kataši. "
+      },
+      "img": "src/images/kataslide.jpg"
+    },
+    {
+      "id": 5,
+      "text": {
+        "title": "Ipon Junior 9Oz",
+        "body": "Takmičarski kimono za mladji takmičarski uzrast izradjen od izuzetno kvalitetnog materijala srednje težine. Moderan i komotan model kimona, izdvaja se po povoljnoj ceni. Materijal specijalno obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara"
+      },
+      "img": "src/images/karate3.jpg"
+    },
+    {
+      "id": 6,
+      "text": {
+        "title": "Ipon pojasevi-jači",
+        "body": "Komplet ipon pojaseva sa WKF odobrenjem"
+      },
+      "img": "src/images/karate6.jpg"
+    }
+  ],
+  "discount": [
+    {
+      "id": 1,
+      "text": {
+        "title": "Tokaido – Kata Master Athletic WKF",
+        "body": "Ova uniforma nije za sve! Međutim, ako tražite prvoklasni karate gi za kata takmičenja i prvenstva, zavolećete novi Kata Master Athletic od Tokaida. Kvalitet tkanine posebno razvijen za Kate. Zahvaljujući revidiranoj verziji Tima KI, kimono odgovara još bolje i daje konkurentu karakterističnu harizmu.",
+        "oldprice": "139€",
+        "price": "Na akciji 120€"
+      },
+      "img": "src/images/karate7.jpg"
+    },
+    {
+      "id": 2,
+      "text": {
+        "title": "Tokaido – Kumite Master Pro (5 Oz) WKF",
+        "body": "Kimono Kumite Master PRO je napravljen od super lakog polyester-a, sa specijalnim mrežastim umetcima na najosetljivijim delovima kimona koji mu daju dodatnu čvrstinu i omogućavaju koži da normalno diše.",
+        "oldprice": "120€",
+        "price": "Na akciji 99€"
+      },
+      "img": "src/images/karate8.jpg"
+    },
+    {
+      "id": 3,
+      "text": {
+        "title": "Štitnik-karate-kumite WKF",
+        "body": "Arawaza – Štitnik potkolenice i risa (komplet) WKF Approved",
+        "oldprice": "24€",
+        "price": "Na akciji 20€"
+      },
+      "img": "src/images/stitnicislide.jpg"
+    },
+    {
+      "id": 4,
+      "text": {
+        "title": "Kata Master WKF",
+        "body": "Model specijalno urađen za kate, sa širokim porubom na rukavima i nogavicama koji su skraćeni po standardima.Sa WKF approved sertifikatom, sertifikatom za sva svetska i evropska takmičenja. ",
+        "oldprice": "86€",
+        "price": "Na akciji 65€"
+      },
+      "img": "src/images/kataslide.jpg"
+    },
+    {
+      "id": 5,
+      "text": {
+        "title": "Arawaza – Black Diamond",
+        "body": "Najkvalitetniji Arawaza KATA kimono načinjen od japanske tkanine sa inovativnom AAIR tehnologijom.",
+        "oldprice": "215€",
+        "price": "Na akciji 180€"
+      },
+      "img": "src/images/karate10.jpg"
+    },
+    {
+      "id": 6,
+      "text": {
+        "title": "Arawaza – Onyx Zero Gravity WKF",
+        "body": "Izuzetno lagani i otporan kimono će ponuditi najbolje performanse tokom takmičenja na najvišem nivou. Zahvaljujući kvalitetu i dizajnu ovaj kimono je vemoa brzo postao broj 1 među takmičarima.",
+        "oldprice": "79€",
+        "price": "Na akciji 65€"
+      },
+      "img": "src/images/karate9.jpg"
+    }
+  ],
+  "karate": [
+    {
+      "id": 1,
+      "title": "Ipon-Classic 11 Oz",
+      "description": "Takmičarski kimono uradjen od srednje teškog materijala, modernog izgleda. Koristi se kako za kate tako i za kumite. Materijal specijano obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara",
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 35,
+      "img": "src/images/karate1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ipon - Kata As13",
+      "description": "Izradjen od visokokvalitetnog teškog materijala. Model specijalno uradjen za kate, sa širokim porubom na rukavima i nogavicama koji su skraćeni po standardima. Materijal specijalno obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara.",
+      "availableSizes": [
+        "X",
+        "M",
+        "L"
+      ],
+      "price": 55,
+      "img": "src/images/karate2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ipon Junior 9Oz",
+      "description": "Takmičarski kimono za mladji takmičarski uzrast izradjen od izuzetno kvalitetnog materijala srednje težine. Moderan i komotan model kimona, izdvaja se po povoljnoj ceni. Materijal specijalno obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara",
+      "availableSizes": [
+        "X",
+        "M",
+        "L"
+      ],
+      "price": 29,
+      "img": "src/images/karate3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ipon pojas",
+      "description": "Ipon pojasevi WKF. Komplet plavi i crveni",
+      "availableSizes": [
+        "XL"
+      ],
+      "price": 10,
+      "img": "src/images/karate4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ipon štitnik potkoljenice",
+      "description": "Štitnik potkoljenice, komplet plavi i crveni par",
+      "availableSizes": [
+        "X",
+        "L",
+        "XL"
+      ],
+      "price": 16,
+      "img": "src/images/karate5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Ipon pojasevi-jači",
+      "description": "Komplet ipon pojaseva sa WKF odobrenjem",
+      "availableSizes": [
+        "XL",
+        "XXL"
+      ],
+      "price": 22,
+      "img": "src/images/karate6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Tokaido – Kata Master Athletic WKF",
+      "description": "Ova uniforma nije za sve! Međutim, ako tražite prvoklasni karate gi za kata takmičenja i prvenstva, zavolećete novi Kata Master Athletic od Tokaida. Kvalitet tkanine posebno razvijen za Kate. Zahvaljujući revidiranoj verziji Tima KI, kimono odgovara još bolje i daje konkurentu karakterističnu harizmu. Odličan Gi – dizajniran od strane Kata sportista, namenjen za Kata sportiste.",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 22.5,
+      "img": "src/images/karate7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Tokaido – Kumite Master Pro (5 Oz) WKF",
+      "description": "Kimono Kumite Master PRO je napravljen od super lakog polyester-a, sa specijalnim mrežastim umetcima na najosetljivijim delovima kimona koji mu daju dodatnu čvrstinu i omogućavaju koži da normalno diše. Njegov izuzetni dizajn i mala težina (samo 5 Oz), ga čine veoma popularnim, kako među najboljim svetskim karatistima, tako i među trenerima i ostalim sportistima koji žele da imaju kimono vrhunskog kvaliteta i izgleda. Napomena: Veličina kimona odgovara visini takmičara",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 125,
+      "img": "src/images/karate8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Arawaza – Onyx Zero Gravity WKF",
+      "description": "Izuzetno lagani i otporan kimono će ponuditi najbolje performanse tokom takmičenja na najvišem nivou. Zahvaljujući kvalitetu i dizajnu ovaj kimono je vemoa brzo postao broj 1 među takmičarima. Težina 5Oz. Materijal: 100% Polyester",
+      "availableSizes": [
+        "L",
+        "XL"
+      ],
+      "price": 210,
+      "img": "src/images/karate9.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Ipon-Classic 11 Oz",
+      "description": "Takmičarski kimono uradjen od srednje teškog materijala, modernog izgleda. Koristi se kako za kate tako i za kumite. Materijal specijano obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara",
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 35,
+      "img": "src/images/karate1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ipon - Kata As13",
+      "description": "Izradjen od visokokvalitetnog teškog materijala. Model specijalno uradjen za kate, sa širokim porubom na rukavima i nogavicama koji su skraćeni po standardima. Materijal specijalno obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara.",
+      "availableSizes": [
+        "X",
+        "M",
+        "L"
+      ],
+      "price": 55,
+      "img": "src/images/karate2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ipon Junior 9Oz",
+      "description": "Takmičarski kimono za mladji takmičarski uzrast izradjen od izuzetno kvalitetnog materijala srednje težine. Moderan i komotan model kimona, izdvaja se po povoljnoj ceni. Materijal specijalno obradjen na skupljanje. Napomena: Veličina kimona odgovara visini takmičara",
+      "availableSizes": [
+        "X",
+        "M",
+        "L"
+      ],
+      "price": 29,
+      "img": "src/images/karate3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ipon pojas",
+      "description": "Ipon pojasevi WKF. Komplet plavi i crveni",
+      "availableSizes": [
+        "XL"
+      ],
+      "price": 10,
+      "img": "src/images/karate4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ipon štitnik potkoljenice",
+      "description": "Štitnik potkoljenice, komplet plavi i crveni par",
+      "availableSizes": [
+        "X",
+        "L",
+        "XL"
+      ],
+      "price": 16,
+      "img": "src/images/karate5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Ipon pojasevi-jači",
+      "description": "Komplet ipon pojaseva sa WKF odobrenjem",
+      "availableSizes": [
+        "XL",
+        "XXL"
+      ],
+      "price": 22,
+      "img": "src/images/karate6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Tokaido – Kata Master Athletic WKF",
+      "description": "Ova uniforma nije za sve! Međutim, ako tražite prvoklasni karate gi za kata takmičenja i prvenstva, zavolećete novi Kata Master Athletic od Tokaida. Kvalitet tkanine posebno razvijen za Kate. Zahvaljujući revidiranoj verziji Tima KI, kimono odgovara još bolje i daje konkurentu karakterističnu harizmu. Odličan Gi – dizajniran od strane Kata sportista, namenjen za Kata sportiste.",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 22.5,
+      "img": "src/images/karate7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Tokaido – Kumite Master Pro (5 Oz) WKF",
+      "description": "Kimono Kumite Master PRO je napravljen od super lakog polyester-a, sa specijalnim mrežastim umetcima na najosetljivijim delovima kimona koji mu daju dodatnu čvrstinu i omogućavaju koži da normalno diše. Njegov izuzetni dizajn i mala težina (samo 5 Oz), ga čine veoma popularnim, kako među najboljim svetskim karatistima, tako i među trenerima i ostalim sportistima koji žele da imaju kimono vrhunskog kvaliteta i izgleda. Napomena: Veličina kimona odgovara visini takmičara",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 125,
+      "img": "src/images/karate8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Arawaza – Onyx Zero Gravity WKF",
+      "description": "Izuzetno lagani i otporan kimono će ponuditi najbolje performanse tokom takmičenja na najvišem nivou. Zahvaljujući kvalitetu i dizajnu ovaj kimono je vemoa brzo postao broj 1 među takmičarima. Težina 5Oz. Materijal: 100% Polyester",
+      "availableSizes": [
+        "L",
+        "XL"
+      ],
+      "price": 210,
+      "img": "src/images/karate9.jpg"
+    }
+  ]
+}

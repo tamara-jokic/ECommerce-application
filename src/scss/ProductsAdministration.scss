@@ -1,0 +1,24 @@
+.product-admin {
+  width: 100%;
+
+  .product-title {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #002266;
+
+    &:hover {
+      text-decoration: none;
+      color: #263f66;
+    }
+  }
+
+  .product-text {
+    font-size: 0.9rem;
+  }
+
+  .price-text {
+    font-size: 2.2rem;
+    font-style: oblique;
+    color: #011847;
+  }
+}

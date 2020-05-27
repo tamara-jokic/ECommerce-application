@@ -1,0 +1,11 @@
+.mapouter {
+  position: relative;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+
+  iframe{
+    border: none;
+  }
+}

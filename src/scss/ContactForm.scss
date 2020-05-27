@@ -1,0 +1,54 @@
+.contactform-container .ContactForm {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  // background-color: whitesmoke;
+
+  h1 {
+    font-size: 2rem;
+    padding-left: 100px;
+  }
+  .form-description {
+    p {
+      padding-left: 15px;
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+
+  .form-submit {
+    width: 9rem;
+    font-size: 10px;
+  }
+
+  .row {
+    padding-top: 2rem;
+  }
+  .message {
+    font-size: 10px;
+  }
+}
+.contactform-container {
+  width: 70%;
+  padding-left: 100px;
+  flex-direction: row;
+}
+
+
+@media only screen and (max-width : 900px) {
+  .contactform-container{
+    margin: 0 auto;
+  }
+  .contactform-container{
+    width: 90%;
+    padding: 0;
+
+    h1{
+      padding-left: 0 !important;
+      text-align: center;
+    }
+  }
+
+  .form-description p{
+    width: 100% !important;
+  }
+}

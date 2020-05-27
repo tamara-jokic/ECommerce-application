@@ -1,0 +1,142 @@
+.contact-info {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  flex-direction: row;
+  margin-top: 100px;
+  padding-right: 50px;
+}
+
+.contact-info .text {
+  display: inline-block;
+  width: 50%;
+}
+.contact-info .images {
+  display: inline-block;
+  width: 50%;
+}
+
+.contact-info .images {
+  position: relative;
+  // height: 35vw;
+}
+
+.text {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  .text-container {
+    height: auto !important;
+  }
+}
+
+.text-container .header {
+  font-family: "Muli", sans-serif;
+  font-size: 2rem;
+  // font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.paragraph::before {
+  content: "";
+  width: 100%;
+  height: 150%;
+
+  position: absolute;
+  z-index: -1;
+  bottom: 0vw;
+  right: 2vw;
+}
+
+.contact-info .text {
+  position: relative;
+}
+
+.contact-info .paragraph div {
+  width: 100%;
+}
+.contact-info .text p {
+  font-family: "Muli", sans-serif;
+  // font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-info .text,
+  .contact-info .images {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-info .header {
+    font-size: 3rem;
+  }
+
+  .contact-info .text {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .contact-info .text p {
+    // font-size: 3.6rem;
+  }
+
+  .text-container {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+
+  .contact-info .images {
+    height: 50vw;
+  }
+
+  .contact-info .images img {
+    width: 55vw;
+    right: 30vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mail {
+    text-decoration: none !important;
+    // color: black;
+  }
+
+  .contact-info{
+    padding-right: 0;
+  }
+
+  .contact-info .header{
+    font-size: 1.5rem;
+  }
+
+  .paragraph p{
+    font-size: 1rem !important;
+  }
+}

@@ -1,0 +1,74 @@
+.banner {
+  // display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 1px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.6);
+  color: var(--mainWhite);
+  padding: 1rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  width: 40rem;
+  height: 300px;
+}
+.banner h1 {
+  font-size: 22px;
+  color: white;
+}
+.banner div {
+  width: 1rem;
+  height: 2px;
+  background: var(--primaryColor);
+  margin: 0.6rem auto;
+}
+.banner p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.btn-products {
+  background-color: #002266 !important;
+  border: 1px solid #002266 !important;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: #263f66 !important;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .banner {
+    padding: 2rem 3rem;
+    height: 250px;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+    height: 250px;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+}
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.5rem 0.5rem;
+  border: 2px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 10px;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primaryColor);
+}

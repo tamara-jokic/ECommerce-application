@@ -1,0 +1,190 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.discount {
+  margin-top: 50px;
+  height: 600px;
+  background-color: rgba(0, 34, 102, 0.9);
+}
+
+.discount-wrapper {
+  padding-top: 40px;
+  padding-left: 7.34%;
+  height: 100%;
+}
+
+.discount-header {
+  margin-bottom: 15px;
+  h1 {
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .button-arrow-wrapper {
+    display: block;
+    float: right;
+    margin-top: 18px;
+    margin-right: 9%;
+  }
+}
+
+.discount-heading {
+  font-family: "Muli", sans-serif;
+  font-size: 30px;
+  line-height: 0.38;
+  color: black;
+  font-weight: bold;
+  //text-shadow: 3px 3px 6px red;
+  //text-shadow: 1px 1px 2px black, 0 0 40px red, 0 0 8px red;
+  //   font-weight: bold;
+}
+
+// .slick-slide {
+//     max-width: 954px!important;
+// }
+
+.discount-div {
+  max-width: 954px;
+
+  img {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .discount-text-div {
+    position: relative;
+    top: 31px;
+    left: -190px;
+    display: block;
+    float: right;
+    width: 35%;
+    height: 83.84%;
+    background-color: white;
+    margin-right: -2px;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    h2 {
+      margin: 20px 20px 33px 27px;
+      font-family: "Muli", sans-serif;
+      font-size: 26px;
+      line-height: 1.06;
+      letter-spacing: normal;
+      color: #2e3038;
+      font-weight: bold;
+    }
+    h3 {
+      margin: 20px 20px 10px 27px;
+      font-family: "Muli", sans-serif;
+      font-size: 24px;
+      text-decoration: line-through;
+      // line-height: 1;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.6);
+      // font-weight: bold;
+    }
+    h4 {
+      margin: 20px 20px 33px 27px;
+      font-family: "Muli", sans-serif;
+      font-size: 30px;
+      line-height: 1.06;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.6);
+      font-weight: bold;
+    }
+
+    p {
+      max-width: 330px;
+      margin: 0px 28px 16px 27px;
+      font-family: "Muli", sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #8b92ab;
+    }
+  }
+}
+
+.slick-next,
+.slick-prev {
+  &:before {
+    content: "" !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .discount {
+    margin-top: 50px;
+    height: 500px;
+    background-color: rgba(0, 34, 102, 0.9);
+  }
+  .discount-div {
+    max-width: 500px;
+
+    img {
+      display: inline-block;
+      width: 50%;
+    }
+
+    .discount-text-div {
+      position: relative;
+      top: 31px;
+      left: -190px;
+      display: block;
+      float: right;
+      width: 35%;
+      height: 300px;
+      background-color: white;
+      margin-right: -2px;
+      border-radius: 3px;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+      h2 {
+        margin: 10px 20px 33px 27px;
+        font-family: "Muli", sans-serif;
+        font-size: 14px;
+        line-height: 1.06;
+        letter-spacing: normal;
+        color: #2e3038;
+        font-weight: bold;
+      }
+      h3 {
+        margin: -10px 5px 10px 27px;
+        font-family: "Muli", sans-serif;
+        font-size: 12px;
+        text-decoration: line-through;
+        // line-height: 1;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.6);
+        // font-weight: bold;
+      }
+      h4 {
+        margin: 0px 20px 33px 27px;
+        font-family: "Muli", sans-serif;
+        font-size: 15px;
+        line-height: 1.06;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: bold;
+      }
+
+      p {
+        max-width: 330px;
+        margin: -26px 28px 16px 27px;
+        font-family: "Muli", sans-serif;
+        font-size: 10px;
+        line-height: 1.5;
+        color: #8b92ab;
+      }
+    }
+  }
+  // .slick-next,
+  // .slick-prev {
+  //   &:before {
+  //     content: "" !important;
+  //   }
+  // }
+}

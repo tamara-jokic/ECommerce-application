@@ -1,0 +1,144 @@
+$breakpoint1: 576px;
+$breakpoint2: 768px;
+
+$color-white: white;
+$color_dark: rgb(45, 44, 54);
+$color-bg: #add8e6;
+$color_background: #002266;
+
+.navbar {
+  height: 4rem;
+  background-color: $color_white;
+  width: 100%;
+  position: fixed !important;
+  z-index: 9999999;
+  box-shadow: 0 -1px 12px 0px rgba(0, 0, 0, 0.3);
+  li {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+
+  .nav-link {
+    color: $color_dark !important;
+
+    &:hover {
+      border-bottom: 2px solid $color_dark;
+    }
+
+    &.active {
+      border-bottom: 2px solid $color_dark;
+    }
+  }
+
+  .navbar-logo {
+    img {
+      height: 60px;
+      width: auto;
+    }
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    background-color: white;
+  }
+}
+.navbar-expand-md .navbar-nav .nav-link ion-icon {
+  vertical-align: middle;
+  font-size: 30px;
+  padding-right: 5px;
+}
+.navbar-expand-md .navbar-nav .cart {
+  padding: 0 13px 0 5px;
+  background-color: #002266;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #263f66;
+  }
+
+  .nav-link {
+    color: white !important;
+
+    &:hover {
+      border-bottom: none;
+    }
+
+    .md.hydrated {
+      height: 18px;
+    }
+  }
+}
+
+.navbar-expand-md .navbar-nav .log,
+.navbar-expand-md .navbar-nav .ad,
+.navbar-expand-md .navbar-nav .out {
+  .nav-link {
+    color: #002266 !important;
+    font-weight: bold;
+    //   padding: 0 13px 0 5px;
+    //   // background-color: #007bff;
+    //   border-radius: 4px;
+    //   transition: 0.3s ease-in-out;
+    // color
+    //   &:hover {
+    //     background-color: #263f66;
+    //   }
+
+    //   .nav-link {
+    //     color: white !important;
+
+    //     &:hover {
+    //       border-bottom: none;
+    //     }
+
+    //     .md.hydrated {
+    //       height: 18px;
+    //     }
+    //   }
+  }
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+@media only screen and (min-device-width: $breakpoint1) and (max-device-width: $breakpoint2) {
+  .navbar {
+    height: 6rem;
+  }
+
+  .navbar-logo {
+    img {
+      height: 40px;
+    }
+  }
+  .nav-wrapper {
+    padding-right: unset !important;
+    padding-left: unset !important;
+    height: unset;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-device-width: $breakpoint1) {
+  .navbar {
+    height: 6rem;
+  }
+
+  .navbar-logo {
+    img {
+      height: 40px;
+    }
+  }
+  .nav-wrapper {
+    padding-right: unset !important;
+    padding-left: unset !important;
+    height: unset;
+    background-color: white;
+  }
+}
